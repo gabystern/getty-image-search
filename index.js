@@ -16,17 +16,10 @@ $(document).ready(function(){
         const lis = data.images.map(function(image){
           if (image.caption !== null) {
             // const caption =  `${image.caption}`
-            return `<li> <img src = "${image.display_sizes[0].uri}"> <br> </li>`
-          }
-        })
-        const caption_lis = data.images.map(function(image){
-          if (image.caption !== null) {
-            // const caption =  `${image.caption}`
-            return `<li> ${image.caption} </li>`
+            return `<li> <img src = "${image.display_sizes[0].uri}"> <br>${image.caption}<br> <br></li>`
           }
         })
         $('#images').html(lis.join(''))
-        $('#image-details').html(caption_lis.join(''))
       },
       headers: {
         'Api-Key': 'q8tqktcyna5whgb5ktuf49je'
@@ -48,14 +41,13 @@ $('form#image-author-search').on('submit', function(event){
       console.log(data)
       const lis = data.images.map(function(image){
         if (image.caption !== null) {
-          // const caption =  `${image.caption}`
-          return `<li> <img src = "${image.display_sizes[0].uri}"> <br> </li>`
+          return `<li> <img src = "${image.display_sizes[0].uri}"><br>${image.caption}<br> <br> </li>`
         }
       })
-      $('#image_parent_column#images').html(lis.join(''))
+      $('#images').html(lis.join(''))
     },
     headers: {
-      'Api-Key': 'q8tqktcyna5whgb5ktuf49je'
+      'Api-Key': '63dnpue5dw2pb5ayaqw9gn2d'
     }
   })
 })

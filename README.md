@@ -3,16 +3,19 @@ Get(ty) Images allows you to search through Getty Images vast storage of images 
 
 Get(ty) Images is a front-end JavaScript app that uses the open developer API from [Getty Images][getty].
 
-
-
+![getty-image-searcher](./lib/assets/Getty1.jpeg?raw=true "Title")
 
 ### Enter a Keyword to Find Related Images
 
-![alt text](https://raw.githubusercontent.com/gabystern/getty-image-search/Getty1.jpeg)
+![getty-image-searcher](./lib/assets/Getty2.jpeg?raw=true "Title")
+
+![getty-image-searcher](./lib/assets/Getty3.jpeg?raw=true "Title")
 
 
 ### Enter an Artist's Name to Find Their Images
 
+![getty-image-searcher](./lib/assets/Getty4.jpeg?raw=true "Title")
 
+![getty-image-searcher](./lib/assets/Getty5.jpeg?raw=true "Title")
 
    [getty]: http://developers.gettyimages.com/en/

@@ -11,13 +11,7 @@ Get(ty) Images is a front-end JavaScript app that uses the open developer API fr
 
 
 
-
-
-
-
 ### Enter an Artist's Name to Find Their Images
-
-
 
 
 

@@ -18,4 +18,4 @@ Get(ty) Images is a front-end JavaScript app that uses the open developer API fr
 
 ![getty-image-searcher](./lib/assets/Getty5.jpeg?raw=true "Title")
 
-   [getty]: http://developers.gettyimages.com/en/
+   [getty]: http://developers.gettyimages.com/en/ 

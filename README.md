@@ -8,7 +8,7 @@ Get(ty) Images is a front-end JavaScript app that uses the open developer API fr
 
 ### Enter a Keyword to Find Related Images
 
-
+![alt text](https://raw.githubusercontent.com/gabystern/getty-image-search/Getty1.jpeg)
 
 
 ### Enter an Artist's Name to Find Their Images
